@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vjit.mysemester.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        app:srcCompat="@drawable/wall"
+        android:scaleType="centerCrop"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <ImageView
+        android:padding="40dp"
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        app:srcCompat="@drawable/logoo"
+        android:scaleType="fitCenter"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
+</android.support.constraint.ConstraintLayout>
